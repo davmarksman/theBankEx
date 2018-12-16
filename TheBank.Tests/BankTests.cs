@@ -12,10 +12,8 @@ namespace TheBank.Tests
         [SetUp]
         public void Setup()
         {
-            // this method is called each time one of the test method runs
-            _theBank = new MyBank();
+            _theBank = new TheBank();
         }
-
 
         [Test]
         public void CanCreateABalance()
