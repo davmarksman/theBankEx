@@ -12,7 +12,7 @@ namespace TheBank.Tests
         [SetUp]
         public void Setup()
         {
-            _theBank = new TheBank();
+            _theBank = new TheBankHong();
         }
 
         [Test]
